@@ -18,6 +18,10 @@ int main(){
     //alocacao dinamica de memoria do vetor.
     int *v;
     v = malloc(100 * sizeof(int));
+    if(v == null){
+      printf("ERRO,falta de memoria.\n");
+      return 1;
+    }
     //declarando variaveis
     int pos = 0;
     //lendo todos os valores informados
@@ -34,4 +38,6 @@ int main(){
     }
     printf("%d\n%d\n",maior,pos);
     return 0;
+
+  free(v);
 }
