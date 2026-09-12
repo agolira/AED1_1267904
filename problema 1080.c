@@ -17,11 +17,11 @@ int main(){
     //declarando as variaveis e o vetor
     int v[100];
     int pos = 0;
-    int maior = v[0];
     //lendo todos os valores informados
     for(int i = 0;i<100;i++){
         scanf("%d",&v[i]);
     }
+    int maior = v[0];
     //encontrando o maior valor lido e a sua pos
     for(int i = 0;i<100;i++){
         if(maior<v[i]){
