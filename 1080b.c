@@ -37,7 +37,8 @@ int main(){
         }
     }
     printf("%d\n%d\n",maior,pos);
-    return 0;
 
-  free(v);
+    free(v);
+  
+    return 0;
 }
