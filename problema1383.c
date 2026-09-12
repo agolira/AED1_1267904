@@ -80,7 +80,9 @@ int main(){
             }else{
                 printf("NAO\n");
             }
-        }else(printf("NAO\n"));
+        }else{
+            printf("NAO\n");
+        }
         printf("\n");
     }
     return 0;
